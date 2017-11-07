@@ -14,22 +14,9 @@ import java.util.List;
  */
 
 public class PhotoFormatUtils {
-    //LruCache
-    public static LruCache<String, Bitmap> BITMAP_CACHE = new LruCache(4194304);
-    public static LruCache<String, Bitmap> BITMAP_LARGE_CACHE = new LruCache(GravityCompat.RELATIVE_LAYOUT_DIRECTION);
+
     public static List<Notes> tmpNote;
 
-    public static Bitmap getBitmap(String pathPhoto, int width, int height) {
-        BitmapFactory.Options bmOptions = new BitmapFactory.Options();
-        bmOptions.inJustDecodeBounds = true;
+    //getPicasso
 
-        BitmapFactory.decodeFile(pathPhoto, bmOptions);
-        int scaleFactor = Math.min(bmOptions.outWidth / width, bmOptions.outHeight / height);
-
-        bmOptions.inSampleSize = scaleFactor;
-        bmOptions.inPurgeable = true;
-        bmOptions.inJustDecodeBounds = false;
-
-        return BitmapFactory.decodeFile(pathPhoto, bmOptions);
-    }
 }

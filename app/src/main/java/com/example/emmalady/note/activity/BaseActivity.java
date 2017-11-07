@@ -307,8 +307,8 @@ public class BaseActivity extends ActionBarActivity {
     public void removeAlarm(Notes note) {
         Intent intent= new Intent(getApplicationContext(), AlarmReceiver.class);
         intent.putExtra(KEY_NOTE, note);
-        this.mAlarmManager.cancel(PendingIntent.getBroadcast(this, (int) note.getmId(), intent, PendingIntent.FLAG_UPDATE_CURRENT));
-        this.mAlarmManager.cancel(PendingIntent.getBroadcast(this, (int) note.getmId(), intent, PendingIntent.FLAG_UPDATE_CURRENT));
+        this.mAlarmManager.cancel(PendingIntent.getBroadcast(this,  note.getmId(), intent, PendingIntent.FLAG_UPDATE_CURRENT));
+        this.mAlarmManager.cancel(PendingIntent.getBroadcast(this,  note.getmId(), intent, PendingIntent.FLAG_UPDATE_CURRENT));
     }
     //-------------------------------------------------------------------------------------------
 
