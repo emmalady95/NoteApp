@@ -29,7 +29,6 @@ public class AlarmService extends Service {
     }
     public final IBinder mBinder = new ServiceBinder();
 
-    private static final int NOTIFICATION = 123;
     public static final String INTENT_NOTIFY = "com.example.emmalady.note.INTENT_NOTIFY";
     private NotificationManager notificationManager;
 
