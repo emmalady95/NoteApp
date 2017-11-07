@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="alarm_date_array">
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>Next</item>
+        <item>Other...</item>
+    </array>
+    <array name="alarm_time_array">
+        <item>09:00</item>
+        <item>13:00</item>
+        <item>17:00</item>
+        <item>20:00</item>
+        <item>Other...</item>
+    </array>
+</resources>

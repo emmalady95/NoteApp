@@ -1,0 +1,46 @@
+<resources>
+    <!--ACTIVITY-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+
+    <!--MARGINS AND PADDING CONTROLS, VIEW-->
+    <!--CONTROLS-->
+    <dimen name="padding_elements">10dp</dimen>
+    <dimen name="et_margin">15dp</dimen>
+    <dimen name="tv_margin">10dp</dimen>
+    <dimen name="img_margin_left">15dp</dimen>
+    <dimen name="img_margin_top">15dp</dimen>
+    <dimen name="sp_margin_left">5dp</dimen>
+    <dimen name="sp_margin_top">15dp</dimen>
+    <dimen name="ib_margin_top">15dp</dimen>
+    <dimen name="ib_margin_left">5dp</dimen>
+    <dimen name="bt_margin">10dp</dimen>
+    <dimen name="bt_margin_left">2dp</dimen>
+    <dimen name="bt_margin_top">10dp</dimen>
+
+    <!--VIEW-->
+    <dimen name="ll_padding">20dp</dimen>
+    <dimen name="ln_margin_left">5dp</dimen>
+    <dimen name="padding_title">10dp</dimen>
+    <dimen name="padding_content">10dp</dimen>
+    <dimen name="padding_show_time">10dp</dimen>
+
+
+    <!--TEXT VIEW-->
+    <dimen name="tv_text_size">16sp</dimen>
+    <dimen name="tv_text_size_fix">14sp</dimen>
+    <dimen name="tv_startdivide_height">5dp</dimen>
+    <dimen name="tv_content_height">100dp</dimen>
+    <dimen name="tv_time_height">40dp</dimen>
+
+    <!--IMAGE-->
+    <dimen name="img_size">40dp</dimen>
+    <dimen name="img_size_fix">30dp</dimen>
+    <dimen name="img_size_width">60dp</dimen>
+
+    <!--EDIT TEXT-->
+    <!--BUTTON-->
+    <dimen name="bt_text_size">14sp</dimen>
+    <dimen name="bt_text_size_fix">16sp</dimen>
+
+</resources>

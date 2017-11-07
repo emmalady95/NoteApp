@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/llItemNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/ll_padding"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_title"
+            android:gravity="center"
+            android:padding="@dimen/padding_title"
+            android:textSize="@dimen/tv_text_size"
+            android:textColor="@color/Red"
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/tvStartDivide"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tv_startdivide_height"
+            android:background="@color/DarkGray" />
+        <TextView
+            android:id="@+id/tvNoteContent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tv_content_height"
+            android:text="@string/tv_content"
+            android:padding="@dimen/padding_content"
+            android:maxLines="3"/>
+        <TextView
+            android:id="@+id/tvNoteDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tv_time_height"
+            android:text="@string/tv_time"
+            android:padding="@dimen/padding_show_time"
+            android:gravity="end"
+            android:textSize="@dimen/tv_text_size_fix"
+            android:textColor="@color/Black"
+            android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>
